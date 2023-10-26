@@ -1,0 +1,81 @@
+/* Our own frame work */
+
+
+.input-us {
+   border-radius: var( --border-radius);
+   outline: 0.1rem transparent;
+   border: 1px solid var(--y-color);
+   padding: 0.30rem ;
+   width: 25rem;
+   height: 2.6rem;
+   font-size: 1rem;
+   color: var(--primary-grey);
+}
+
+/* Button */
+
+.btn-us {
+    border-radius: var( --border-radius);
+    outline: 0.1rem transparent;
+    border: none;
+    padding: 0.40rem 0 ;
+    width: 8rem;
+    height: 2.6rem;
+    font-size: 1rem;
+    color: var(--light-grey);
+    background-color: var(--btn-color);
+    font-weight: bold;
+}
+
+.btn-us:hover {
+    background-color: var(--btn-hover);
+}
+
+.btn-us:active {
+    outline: var(--outline);
+    color: var(--y-color);
+    background-color: var(--x-color);
+}
+
+
+/* Search Bar  */
+.search-container {
+    display: flex;
+   width: 100%;
+
+}
+
+.search-bar {
+    outline: none ;
+    border: none;
+    padding: 0.37rem ;
+    width: 28rem;
+    height: 2.6rem;
+    font-size: 1rem;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+
+/* Searchbar Icon Div */
+
+.searchbar-icon {
+    color: var(--x-color);
+    width: 3rem;
+    height: 2.6rem;
+    background-color: var(--btn-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: var(--border-radius) ;
+    border-bottom-right-radius: var(--border-radius);
+    }
+
+    .searchbar-icon span {
+        font-size: 1.3rem;
+    }
+
+    .searchbar-icon:hover {
+      background-color: var(--btn-hover);
+    }
+
+
